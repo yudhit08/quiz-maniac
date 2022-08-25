@@ -53,6 +53,7 @@ export default function Quiz(props) {
             </div>
             <div className='option-container'>{optionElements}</div>
             {!props.isOver && <Button variant='text' className="clear-btn" onClick={clearAnswer}>clear</Button>}
+            
         </div>
     );
 }

@@ -13,7 +13,7 @@ export default function Start(props) {
             <Link to='/set-quiz'>
                 <Button className='start-btn' variant='contained' onClick={props.startFunc}>Get Started</Button>
             </Link>
-            <ParticlesBg type='polygon' bg={true} />
+            <ParticlesBg type='cobweb' bg={true} />
         </div>
     );
 }
