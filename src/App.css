@@ -23,7 +23,7 @@ a {
     min-height: 100vh;
     margin: 0 auto;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .home-title {
@@ -31,13 +31,13 @@ a {
 }
 
 .home-title h2 {
-    font-size: 4rem;
+    font-size: clamp(2rem, 3rem, 10rem);
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 .home-title h4 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 

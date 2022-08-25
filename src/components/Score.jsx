@@ -10,4 +10,4 @@ function Score(props) {
     );
 }
 
-export default Score;
+export default Score
