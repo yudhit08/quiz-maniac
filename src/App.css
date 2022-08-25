@@ -96,16 +96,20 @@ header a {
 }
 
 .questions h3{
-    font-weight: 500;
-    color: rgb(61, 61, 61);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #3f3f3f;
+    letter-spacing: 0.1px;
 }
 
 .option {
-    padding: 15px 20px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
     border: 2px solid rgb(204, 204, 204);
-    color: rgb(41, 39, 39);
     cursor: pointer;
+    color: #3f3f3f;
+    letter-spacing: 0.1px;
 }
 
 .option:hover {
