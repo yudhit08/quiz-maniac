@@ -1,0 +1,32 @@
+{
+  "name": "quiz-maniac",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "nanoid": "^4.0.0",
+    "particles-bg": "^2.5.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-spinners": "^0.13.4",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "legacy-encoding": "^3.0.0",
+    "vite": "^3.0.7"
+  }
+}
